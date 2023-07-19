@@ -362,9 +362,26 @@ nav ul
     padding: 44px 260px;  
   
 }
+/*main section st*/
 
 
+.section-1
+    {
+        flex-direction: column;
+    
+    }
 
+    .img-main
+    {
+        margin-left: 10px;
+        width: 550px;
+        height: 500px;
+    }
+
+    .main-container-2
+    {
+        text-align: center;
+    }
 
 
 
