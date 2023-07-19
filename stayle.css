@@ -143,8 +143,6 @@ li a
     background: url("images/Group\ 14.png");
     background-size: 750px 600px;
     background-repeat: no-repeat;
-    width: 1536px;
-    height: 600px;
     display: flex;
     gap: 180px;
     align-items: center;
@@ -153,7 +151,7 @@ li a
 {
     margin-left: 200px;
     text-align: left;
-    
+
 }
 .img-banner
 {
@@ -184,29 +182,64 @@ li a
 /* devices responsive*/
 @media screen and (max-width:576px) {
     
-nav 
-{
-    flex-direction: column;
+
+    nav 
+    {
+        flex-direction: column;
+        
+    }
+    .nav-sections
+    {
+        width: auto;
+        height: 350px;
+        padding: 40px 90px;
+    }
+    nav ul 
+    {
+        flex-direction: column;
+        margin-top:20px;
+        margin-right: auto;
+    }
     
+    .header-containers
+    {
+        background-size: 400px 500px;
+        align-items: center;
+       flex-direction: column;
+        margin-left: px;
+        
+    }
+    .container-1
+    {
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .nav-sections
+    {
+    
+        padding: 44px 80px;  
+      
+    }
+
+    .img-banner
+    {
+        width: 400px;
+        height: 400px;
+        margin-left: 10px;
+       
+    
+    }
+    .header-btn-2
+    {
+        margin-left: 0;
+    }
+  
+
 }
-.nav-sections
-{
-    width: 425px;
-    height: 350px;
-    padding: 44px 90px;
-}
-nav ul 
-{
-    flex-direction: column;
-    margin-top:20px;
-}
 
 
 
 
-
-
-}
 @media screen and (min-width: 576px) and (max-width: 992px) {
     nav 
 {
@@ -215,7 +248,7 @@ nav ul
 }
 .nav-sections
 {
-    width: 425px;
+    width: 768px;
     height: 350px;
     padding: 44px 90px;
 }
@@ -225,6 +258,27 @@ nav ul
     margin-top:20px;
 }
 
+.header-containers
+{
+    background-size: 400px 500px;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container-1
+{
+    margin-left: 20px;
+    margin-top: 70px;
+}
+.nav-sections
+{
+
+    padding: 44px 260px;  
+  
+}
+
+
 
 
 
@@ -233,4 +287,11 @@ nav ul
 
 
 }
+
+
+
+
+
+
+
 
