@@ -277,18 +277,23 @@ li a
 }
 .nd-img{
 
-    position: relative;
+
     width: 340px;
     bottom: 300px;
     margin-left: 400px;
-    
+    position: relative;
 
+}
+.container-image2
+{
+    width: auto;
+    height: 50px;
 }
 
 .img-container-3
 {
-    width:634.833px ;
-    height:650px;
+    width: 634.833px;
+    height: 650px;
 }
 
 .section-3-heading
@@ -296,9 +301,48 @@ li a
     margin-top: 270px;
 }
 
+/*sedtion 3 is finis*/
 
+.section-buttons
+{
+    width: 250px;
+    height: 65px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    font-size:16px;
+    font-weight: 500;
+    color:#0B0223;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; 
+}
+.section-4-img
+{
+    width: 30px;
+    height: 30px;
 
+}
+.section-buttons:hover
+{
+    border:2px solid #FF42A5;
 
+}
+.container-4
+{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.main-section-4
+{
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}  
+             
 
 
 
@@ -439,12 +483,35 @@ li a
     margin-top: 200px;
 
 }
+.container-4
+{
 
+    grid-template-columns: repeat(2, 1fr);
+    
 
+}
+.section-buttons
+{
+    width: 180px;
+    height: 45px;
+    font-size:14px;
+    font-weight: 500;
 
+}
 
+.section-4-img
+{
+    width: 20px;
+    height: 20px;
 
+}
 
+.main-section-4
+{
+    margin-left: 15px;
+    margin-right: 20px;
+
+}  
 
 
 
@@ -583,15 +650,39 @@ nav ul
 {
     margin-top: 0px;
 }
-.main-section-3
+
+
+/*sectiion 4 is finis*/
+
+
+.container-4
 {
- 
+
+    grid-template-columns: repeat(3, 1fr);
+    
+
+}
+.section-buttons
+{
+    width: 230px;
+    height: 50px;
+    font-size:18px;
+    font-weight: 600;
+
 }
 
+.section-4-img
+{
+    width: 30px;
+    height: 30px;
 
+}
 
-
-
+.main-section-4
+{
+    margin-left: 30px;
+   
+} 
 
 
 
